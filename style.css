@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body, html{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(18, 158, 111);
+}
+
+.main-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 320px;
+    width: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 7px black;
+}
+
+.top-container{
+    width: 100%;
+    height: 80px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(49, 179, 101);
+    font-weight: 300;
+}
+
+.login-details{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.logo-and-input{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.logo-and-input i{
+    padding: 10px 15px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(49, 179, 101);
+    z-index: 1;
+}
+.logo-and-input input{
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    border: 1px solid black;
+    margin-left: -4px;
+    transition: all 0.4s;
+}
+
+.logo-and-input input:hover{
+    border: 2px solid rgb(18, 158, 111);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form a{
+    
+    display: inline-block;
+    color: rgb(18, 158, 111);
+    font-size: 13px;
+    text-decoration: none;
+}
+
+
+form .login{
+    margin-top: 20px;
+    padding: 8px 40px;
+    color: white;
+    font-size: 16px;
+    background-color: rgb(49, 179, 101);
+    border-radius: 5px;
+    border:none;
+    transition: all 0.3s;
+}
+
+form .login:hover{
+    background-color: rgb(26, 101, 56);
+}
+
+.bottom{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+   
+}
+
+.bottom a{
+    color: rgb(18, 158, 111);
+    text-decoration: none;
+}
